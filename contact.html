@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Barbara Roberts Realty Inc.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+
+
+</style> 
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Barbara Roberts Realty Inc.</h1>
+  </header>
+    <nav>
+	<ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="Listings.html">Active Listings</a></li>
+      <li id="page">Contact</li>
+      <li><a href="Sitemap.html">Sitemap</a></li>
+	 </ul>
+    </nav>
+    <main>
+    <h2><span lang="en-ca">Contact us for your Dream Home</span></h2>
+	<form method="post" action="mailto:info@barbrob.ca">
+	<label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="propertyType">Type of Property:</label>
+    <select id="propertyType" name="propertyType" required>
+      <option value="house">House</option>
+      <option value="condo">Condominium</option>
+    </select>
+
+    <label for="bedrooms">Number of Bedrooms:</label>
+    <input type="number" id="bedrooms" name="bedrooms" min="0" required>
+
+    <label for="bathrooms">Number of Bathrooms:</label>
+    <input type="number" id="bathrooms" name="bathrooms" min="0" required>
+
+    <label for="priceRange">Price Range:</label>
+    <input type="text" id="priceRange" name="priceRange" required>
+
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" name="comments" rows="4"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+    </main>
+   <aside>
+    <figure>
+    <img src="AgentPic.jpg" width="300" height="auto" alt="Agent Picture">
+		<br>Phone: (647)-678-1234
+		<br>Email: <a href="mailto:info@barbrob.ca">info@barbrob.ca</a>
+    </figure>
+  </aside> 
+  <footer>
+	Copyright &copy; 2023
+  </footer>
+ </div>
+</body>
+</html>
+
+
